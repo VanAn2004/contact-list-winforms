@@ -6,20 +6,16 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ContactList;
 using System.Windows.Forms;
 
 namespace ContactList
 {
-    public partial class Mainform: Form
+    public partial class MainForm: Form
     {
-        public Mainform()
+        public MainForm()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
